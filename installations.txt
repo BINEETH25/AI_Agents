@@ -1,0 +1,57 @@
+# Python Version : Commands
+
+    pyenv install 3.12.3
+    pyenv global 3.12.3
+
+# Virtual Environment
+
+    mkdir ai-agent
+    cd ai-agent
+    python -m venv venv
+    source venv/bin/activate
+
+    {We used venv : aiag}
+
+--- Libraries ---
+
+# Core AI/ML :
+
+    pip install numpy pandas scikit-learn
+
+# Deep Leaning :
+
+    pip install torch torchvision torchaudio
+    {Using torch directly, because of m chip}
+
+# Natural Language & LLM's :
+
+    pip install transformers accelerate
+    pip install sentence-transformers
+
+# Langchain & Agents :
+
+    pip install langchain langchain-community
+    pip install openai
+
+# Vector Database(for memory/search) :
+
+    pip install chromadb
+    {optional : pip install weaviate-client}
+
+# Embeddings & tokenization :
+
+    pip install tiktoken
+
+# Environment & Dev Tools :
+
+    pip install ipython jupyterlab python-dotenv
+
+#optional : Tools for LLM Agent Projects :
+    
+    faiss-cpu: for fast vector search (if not using ChromaDB)
+    gradio or streamlit: for simple UI
+    fastapi or flask: for APIs
+
+    : pip install faiss-cpu streamlit fastapi uvicorn
+
+# Select the interpreter and we are good to go, Thank You.
